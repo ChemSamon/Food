@@ -36,10 +36,6 @@ body {
   background-color: rgb(246, 240, 240);
   border-radius: 5px;
 }
-div {
-  border: 1px dashed red;
-  padding: 3px;
-}
 #main {
   width: 1200px;
   background-color: aliceblue;
@@ -73,12 +69,12 @@ div {
 .menu {
   text-align: center;
 }
-#menu{
+#menu {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-column-gap: 15px;
 }
-.food{
+.food {
   width: 260px;
   padding: 4px;
   margin: 7px;
@@ -89,24 +85,24 @@ div {
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   transition: all 0.3s ease-in-out;
 }
-.food img{
+.food img {
   width: 100%;
   height: 280px;
 }
-.food:hover{
+.food:hover {
   transform: translateY(-15px);
 }
-#listfood:hover > :not(:hover){
+#listfood:hover > :not(:hover) {
   opacity: 0.5;
 }
-.dring img{
+.dring img {
   width: 100%;
   height: 700px;
 }
-.dring:hover{
+.dring:hover {
   transform: translateY(-15px);
 }
-.dring{
+.dring {
   background-color: black;
   color: white;
   width: 260px;
@@ -119,14 +115,14 @@ div {
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   transition: all 0.3s ease-in-out;
 }
-.dring1 img{
+.dring1 img {
   width: 100%;
   height: 400px;
 }
-.dring1:hover{
+.dring1:hover {
   transform: translateY(-15px);
 }
-.dring1{
+.dring1 {
   width: 260px;
   padding: 4px;
   margin: 7px;
@@ -147,4 +143,3 @@ p {
   font-weight: 400;
   font-style: normal;
 }
-
